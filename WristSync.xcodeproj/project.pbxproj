@@ -11,11 +11,12 @@
 		02AFE5372A0D455100690CCA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AFE5362A0D455100690CCA /* ContentView.swift */; };
 		02AFE5392A0D455400690CCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02AFE5382A0D455400690CCA /* Assets.xcassets */; };
 		02AFE53C2A0D455400690CCA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02AFE53B2A0D455400690CCA /* Preview Assets.xcassets */; };
-		02AFE5492A0D45E400690CCA /* WristSync_WatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AFE5482A0D45E400690CCA /* WristSync_WatchApp.swift */; };
 		02AFE54B2A0D45E400690CCA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AFE54A2A0D45E400690CCA /* ContentView.swift */; };
 		02AFE54D2A0D45E600690CCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02AFE54C2A0D45E600690CCA /* Assets.xcassets */; };
 		02AFE5502A0D45E600690CCA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02AFE54F2A0D45E600690CCA /* Preview Assets.xcassets */; };
 		02AFE5532A0D45E600690CCA /* WristSync_Watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 02AFE5462A0D45E400690CCA /* WristSync_Watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		02AFE55B2A0D536100690CCA /* WristSyncApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AFE5342A0D455100690CCA /* WristSyncApp.swift */; };
+		02FB859B2A15D216006D6E9E /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FB859A2A15D216006D6E9E /* StartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,10 +50,10 @@
 		02AFE5382A0D455400690CCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02AFE53B2A0D455400690CCA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		02AFE5462A0D45E400690CCA /* WristSync_Watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WristSync_Watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		02AFE5482A0D45E400690CCA /* WristSync_WatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WristSync_WatchApp.swift; sourceTree = "<group>"; };
 		02AFE54A2A0D45E400690CCA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		02AFE54C2A0D45E600690CCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02AFE54F2A0D45E600690CCA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02FB859A2A15D216006D6E9E /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,10 +114,10 @@
 		02AFE5472A0D45E400690CCA /* WristSync_Watch Watch App */ = {
 			isa = PBXGroup;
 			children = (
-				02AFE5482A0D45E400690CCA /* WristSync_WatchApp.swift */,
 				02AFE54A2A0D45E400690CCA /* ContentView.swift */,
 				02AFE54C2A0D45E600690CCA /* Assets.xcassets */,
 				02AFE54E2A0D45E600690CCA /* Preview Content */,
+				02FB859A2A15D216006D6E9E /* StartView.swift */,
 			);
 			path = "WristSync_Watch Watch App";
 			sourceTree = "<group>";
@@ -240,8 +241,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02FB859B2A15D216006D6E9E /* StartView.swift in Sources */,
 				02AFE54B2A0D45E400690CCA /* ContentView.swift in Sources */,
-				02AFE5492A0D45E400690CCA /* WristSync_WatchApp.swift in Sources */,
+				02AFE55B2A0D536100690CCA /* WristSyncApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

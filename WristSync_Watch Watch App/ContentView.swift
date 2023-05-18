@@ -6,16 +6,17 @@
 //
 
 import SwiftUI
+import WatchKit
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ZStack {
+            Color.black.edgesIgnoringSafeArea(.all)
+            
+            NavigationStack {
+                StartView()
+            }
         }
-        .padding()
     }
 }
 
@@ -24,3 +25,20 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+/*
+ WristSync_WatchApp.swift
+ 
+ 
+ import SwiftUI
+
+ @main
+ struct WristSync_Watch_Watch_AppApp: App {
+     var body: some Scene {
+         WindowGroup {
+             ContentView()
+         }
+     }
+ }
+
+ */
