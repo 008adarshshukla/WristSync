@@ -13,7 +13,15 @@ struct StartView: View {
     var workOutTypes: [HKWorkoutActivityType] = [.cycling, .running, .walking]
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List(workOutTypes) { workoutType in
+            NavigationLink(workoutType.name) {
+                Text(workoutType.name)
+            }
+            .padding(EdgeInsets(top: 15, leading: 5, bottom: 15, trailing: 5))
+        }
+        //MARK: Carousel type provides depth effect while scrolling.
+        .listStyle(.carousel)
+        .navigationTitle("Workouts")
     }
 }
 
