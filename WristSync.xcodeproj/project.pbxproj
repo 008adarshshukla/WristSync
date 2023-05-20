@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0272AD552A18AC3000866213 /* SessionPagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0272AD542A18AC3000866213 /* SessionPagingView.swift */; };
 		02AFE5352A0D455100690CCA /* WristSyncApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AFE5342A0D455100690CCA /* WristSyncApp.swift */; };
 		02AFE5372A0D455100690CCA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AFE5362A0D455100690CCA /* ContentView.swift */; };
 		02AFE5392A0D455400690CCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02AFE5382A0D455400690CCA /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0272AD542A18AC3000866213 /* SessionPagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionPagingView.swift; sourceTree = "<group>"; };
 		02AFE5312A0D455100690CCA /* WristSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WristSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02AFE5342A0D455100690CCA /* WristSyncApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WristSyncApp.swift; sourceTree = "<group>"; };
 		02AFE5362A0D455100690CCA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				02AFE54C2A0D45E600690CCA /* Assets.xcassets */,
 				02AFE54E2A0D45E600690CCA /* Preview Content */,
 				02FB859A2A15D216006D6E9E /* StartView.swift */,
+				0272AD542A18AC3000866213 /* SessionPagingView.swift */,
 			);
 			path = "WristSync_Watch Watch App";
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				02FB859B2A15D216006D6E9E /* StartView.swift in Sources */,
 				02AFE54B2A0D45E400690CCA /* ContentView.swift in Sources */,
 				02AFE55B2A0D536100690CCA /* WristSyncApp.swift in Sources */,
+				0272AD552A18AC3000866213 /* SessionPagingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
